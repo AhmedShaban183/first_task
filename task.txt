@@ -1,0 +1,94 @@
+abo-shaban@ubuntu:/$ sudo su
+[sudo] password for abo-shaban: 
+root@ubuntu:/# cd /home
+root@ubuntu:/home# mkdir task
+root@ubuntu:/home# ls
+abo-shaban  task
+root@ubuntu:/home# cd task
+root@ubuntu:/home/task# mkdir ahmed1 ahmed2
+root@ubuntu:/home/task# ls
+ahmed1  ahmed2
+root@ubuntu:/home/task# cd ahmed1
+root@ubuntu:/home/task/ahmed1# cat > file1.txt
+this is file 1
+Dr.samar shaban
+operating system
+^c
+^c
+^C
+cat file1.txt   
+clear
+$_
+root@ubuntu:/home/task/ahmed1# cat file1.txt
+this is file 1
+Dr.samar shaban
+operating system
+^c
+^c
+^C
+cat file1.txt
+clear
+$_
+root@ubuntu:/home/task/ahmed1# cat > file2.txt
+this is file 2
+Ahmed mohammed shaban
+operating system
+root@ubuntu:/home/task/ahmed1# cat > file3.txt
+^C
+root@ubuntu:/home/task/ahmed1# cat file3.txt
+root@ubuntu:/home/task/ahmed1# ls
+file1.txt  file2.txt  file3.txt
+root@ubuntu:/home/task/ahmed1# cp file1.txt /home/task/ahmed2
+root@ubuntu:/home/task/ahmed1# cd ../
+root@ubuntu:/home/task# cd ahmed2
+root@ubuntu:/home/task/ahmed2# ls
+file1.txt
+root@ubuntu:/home/task/ahmed2# cd ../..
+root@ubuntu:/home# ls |grep a|grep A
+root@ubuntu:/home# ls
+abo-shaban  task
+root@ubuntu:/home# cd task
+root@ubuntu:/home/task# ls |grep a|grep A
+root@ubuntu:/home/task# ls 
+ahmed1  ahmed2
+root@ubuntu:/home/task# cd ahmed1
+root@ubuntu:/home/task/ahmed1# ls
+file1.txt  file2.txt  file3.txt
+root@ubuntu:/home/task/ahmed1# cat > Abo.txt
+sfhagkjhgk;jlhlf;sg
+^C
+root@ubuntu:/home/task/ahmed1# cat > ahmed.txt
+dfhghdghdg^C
+root@ubuntu:/home/task/ahmed1# ls
+Abo.txt  ahmed.txt  file1.txt  file2.txt  file3.txt
+root@ubuntu:/home/task/ahmed1# ls |grep a|grep A
+root@ubuntu:/home/task/ahmed1# ls | grep a| grep A
+root@ubuntu:/home/task/ahmed1# ls
+Abo.txt  ahmed.txt  file1.txt  file2.txt  file3.txt
+root@ubuntu:/home/task/ahmed1# ls | grep a
+ahmed.txt
+root@ubuntu:/home/task/ahmed1# ls | grep A
+Abo.txt
+root@ubuntu:/home/task/ahmed1# ls | wc-1
+wc-1: command not found
+root@ubuntu:/home/task/ahmed1# ls | wc-l
+wc-l: command not found
+root@ubuntu:/home/task/ahmed1# ls | wc l
+wc: l: No such file or directory
+root@ubuntu:/home/task/ahmed1# ls | Wc-l
+Wc-l: command not found
+root@ubuntu:/home/task/ahmed1# ls | WC-l
+WC-l: command not found
+root@ubuntu:/home/task/ahmed1# ls -1 | wc -l
+5
+root@ubuntu:/home/task/ahmed1# ls | wc -l
+5
+root@ubuntu:/home/abo-shaban# touch language.c
+root@ubuntu:/home/abo-shaban# gcc -o helloahmed language.c
+root@ubuntu:/home/abo-shaban# ./a.out language c
+oot@ubuntu:/home/abo-shaban# date
+Thu 29 Apr 2021 12:45:53 AM PDT
+root@ubuntu:/home/abo-shaban# ls
+Desktop  Documents  Downloads  language.c  Music  Pictures  Public  Templates  Videos
+root@ubuntu:/home/abo-shaban# pwd
+/home/abo-shaban
